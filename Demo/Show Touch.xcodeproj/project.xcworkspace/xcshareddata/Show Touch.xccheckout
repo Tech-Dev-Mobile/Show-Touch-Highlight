@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8FBC1F6-F4C0-4587-8DCF-1069C567F95D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Show Touch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5534382C-E753-4A63-8942-86FA9FC793A7</key>
+		<string>https://github.com/Tech-Dev-Mobile/Show-Touch-Highlight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/Show Touch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5534382C-E753-4A63-8942-86FA9FC793A7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Tech-Dev-Mobile/Show-Touch-Highlight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5534382C-E753-4A63-8942-86FA9FC793A7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5534382C-E753-4A63-8942-86FA9FC793A7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS-Show Touch Highlight</string>
+		</dict>
+	</array>
+</dict>
+</plist>
