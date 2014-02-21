@@ -21,8 +21,8 @@
 		4FAE8F0518977882006B2526 /* Show_TouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE8F0418977882006B2526 /* Show_TouchTests.m */; };
 		4FAE8F11189778F6006B2526 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE8F0F189778F6006B2526 /* ViewController.m */; };
 		4FAE8F12189778F6006B2526 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAE8F10189778F6006B2526 /* ViewController.xib */; };
-		4FAE8F171897795A006B2526 /* libShowTouchHighlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAE8F141897795A006B2526 /* libShowTouchHighlight.a */; };
-		4FAE8F181897795A006B2526 /* red_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAE8F151897795A006B2526 /* red_circle.png */; };
+		4FB4F4CF18B767DC00F56D0C /* libShowTouchHighlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB4F4CC18B767DC00F56D0C /* libShowTouchHighlight.a */; };
+		4FB4F4D018B767DC00F56D0C /* red_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4F4CD18B767DC00F56D0C /* red_circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +55,9 @@
 		4FAE8F0E189778F6006B2526 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4FAE8F0F189778F6006B2526 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4FAE8F10189778F6006B2526 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		4FAE8F141897795A006B2526 /* libShowTouchHighlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShowTouchHighlight.a; sourceTree = "<group>"; };
-		4FAE8F151897795A006B2526 /* red_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_circle.png; sourceTree = "<group>"; };
-		4FAE8F161897795A006B2526 /* ShowTouchHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTouchHighlight.h; sourceTree = "<group>"; };
+		4FB4F4CC18B767DC00F56D0C /* libShowTouchHighlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShowTouchHighlight.a; sourceTree = "<group>"; };
+		4FB4F4CD18B767DC00F56D0C /* red_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_circle.png; sourceTree = "<group>"; };
+		4FB4F4CE18B767DC00F56D0C /* ShowTouchHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTouchHighlight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB4F4CF18B767DC00F56D0C /* libShowTouchHighlight.a in Frameworks */,
 				4FAE8EE218977882006B2526 /* CoreGraphics.framework in Frameworks */,
-				4FAE8F171897795A006B2526 /* libShowTouchHighlight.a in Frameworks */,
 				4FAE8EE418977882006B2526 /* UIKit.framework in Frameworks */,
 				4FAE8EE018977882006B2526 /* Foundation.framework in Frameworks */,
 			);
@@ -88,6 +88,7 @@
 		4FAE8ED318977882006B2526 = {
 			isa = PBXGroup;
 			children = (
+				4FAE8F1318977927006B2526 /* Library */,
 				4FAE8EE518977882006B2526 /* Show Touch */,
 				4FAE8EFE18977882006B2526 /* Show TouchTests */,
 				4FAE8EDE18977882006B2526 /* Frameworks */,
@@ -118,7 +119,6 @@
 		4FAE8EE518977882006B2526 /* Show Touch */ = {
 			isa = PBXGroup;
 			children = (
-				4FAE8F1318977927006B2526 /* Library */,
 				4FAE8EEE18977882006B2526 /* AppDelegate.h */,
 				4FAE8EEF18977882006B2526 /* AppDelegate.m */,
 				4FAE8F0E189778F6006B2526 /* ViewController.h */,
@@ -162,11 +162,20 @@
 		4FAE8F1318977927006B2526 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				4FAE8F141897795A006B2526 /* libShowTouchHighlight.a */,
-				4FAE8F151897795A006B2526 /* red_circle.png */,
-				4FAE8F161897795A006B2526 /* ShowTouchHighlight.h */,
+				4FB4F4CB18B767DC00F56D0C /* Library */,
 			);
 			name = Library;
+			path = "Show Touch";
+			sourceTree = "<group>";
+		};
+		4FB4F4CB18B767DC00F56D0C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4F4CC18B767DC00F56D0C /* libShowTouchHighlight.a */,
+				4FB4F4CD18B767DC00F56D0C /* red_circle.png */,
+				4FB4F4CE18B767DC00F56D0C /* ShowTouchHighlight.h */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FAE8EEA18977882006B2526 /* InfoPlist.strings in Resources */,
-				4FAE8F181897795A006B2526 /* red_circle.png in Resources */,
+				4FB4F4D018B767DC00F56D0C /* red_circle.png in Resources */,
 				4FAE8F12189778F6006B2526 /* ViewController.xib in Resources */,
 				4FAE8EF218977882006B2526 /* Images.xcassets in Resources */,
 			);
@@ -393,6 +402,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Volumes/Rajesh/References/Show\\ Touch/Show\\ Touch",
+					"/Volumes/Rajesh/demo/GitHub/Showhighlight/IOS-Show\\ Touch\\ Highlight/Demo/Show\\ Touch/Library",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -410,6 +420,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Volumes/Rajesh/References/Show\\ Touch/Show\\ Touch",
+					"/Volumes/Rajesh/demo/GitHub/Showhighlight/IOS-Show\\ Touch\\ Highlight/Demo/Show\\ Touch/Library",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -477,6 +488,7 @@
 				4FAE8F0A18977882006B2526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FAE8F0B18977882006B2526 /* Build configuration list for PBXNativeTarget "Show TouchTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +497,7 @@
 				4FAE8F0D18977882006B2526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
